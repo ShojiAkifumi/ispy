@@ -15,7 +15,7 @@ driver.get("https://is.makonari.com/signin")
 
 driver.find_element(By.NAME,'email').send_keys("ackeytoday@gmail.com")
 
-driver.find_element(By.NAME,'password').send_keys("kuonn8793")
+driver.find_element(By.NAME,'password').send_keys("ぱすわーど")
 
 driver.find_element(By.XPATH, f"/html/body/div[1]/div/div/div/form/button").click()
 
